@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="DelegateEvent\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DelegateEvent\" />
+  </ItemGroup>
 </Project>
