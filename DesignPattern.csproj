@@ -18,10 +18,12 @@
     <None Remove="DelegateEvent\" />
     <None Remove="PatternModels\" />
     <None Remove="PatternModels\SimpleFactory\" />
+    <None Remove="PatternModels\Strategy\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DelegateEvent\" />
     <Folder Include="PatternModels\" />
     <Folder Include="PatternModels\SimpleFactory\" />
+    <Folder Include="PatternModels\Strategy\" />
   </ItemGroup>
 </Project>
