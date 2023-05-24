@@ -2,15 +2,26 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net45</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Configurations>Release;Debug</Configurations>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
   <ItemGroup>
     <None Remove="DelegateEvent\" />
+    <None Remove="PatternModels\" />
+    <None Remove="PatternModels\SimpleFactory\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DelegateEvent\" />
+    <Folder Include="PatternModels\" />
+    <Folder Include="PatternModels\SimpleFactory\" />
   </ItemGroup>
 </Project>

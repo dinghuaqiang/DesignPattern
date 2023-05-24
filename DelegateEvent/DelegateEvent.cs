@@ -1,7 +1,7 @@
 ﻿using System;
 namespace DesignPattern.DelegateEvent
 {
-	public class DelegateEvent
+    public class DelegateEvent
 	{
 
 		public delegate void OnGrantHandler();
