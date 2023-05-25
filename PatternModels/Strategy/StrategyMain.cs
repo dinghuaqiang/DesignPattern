@@ -10,7 +10,7 @@ namespace DesignPattern.PatternModels.Strategy
     /// </summary>
     public class StrategyMain
     {
-        private static void Main(string[] args)
+        /*private static void Main(string[] args)
         {
             Console.WriteLine("Strategy partten learning test.");
 
@@ -25,6 +25,6 @@ namespace DesignPattern.PatternModels.Strategy
             context.Impl();
 
             Console.ReadKey();
-        }
+        }*/
     }
 }
