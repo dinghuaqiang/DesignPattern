@@ -2,9 +2,36 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <TargetFramework>net45</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <Configurations>Release;Debug</Configurations>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="DelegateEvent\" />
+    <None Remove="PatternModels\" />
+    <None Remove="PatternModels\SimpleFactory\" />
+    <None Remove="PatternModels\Strategy\" />
+    <None Remove="PatternModels\OpenClosePrinciple\" />
+    <None Remove="PatternModels\Decorator\" />
+    <None Remove="PatternModels\Decorator\1ST\" />
+    <None Remove="PatternModels\Decorator\2ST\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DelegateEvent\" />
+    <Folder Include="PatternModels\" />
+    <Folder Include="PatternModels\SimpleFactory\" />
+    <Folder Include="PatternModels\Strategy\" />
+    <Folder Include="PatternModels\OpenClosePrinciple\" />
+    <Folder Include="PatternModels\Decorator\" />
+    <Folder Include="PatternModels\Decorator\1ST\" />
+    <Folder Include="PatternModels\Decorator\2ST\" />
+  </ItemGroup>
 </Project>
