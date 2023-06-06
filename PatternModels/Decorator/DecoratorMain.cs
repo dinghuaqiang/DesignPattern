@@ -28,18 +28,18 @@ namespace DesignPattern.PatternModels.Decorator
             Console.ReadKey();
         }*/
 
-        public static void Main(string[] args)
-        {
-            CMAArchitecture manufacturer = new CMAArchitecture();
-            SUV suv = new SUV();
-            suv.ApplyArch(manufacturer);
-            suv.Create();
-            Console.WriteLine("----------------------------------------------------------");
-            MPV mpv = new MPV();
-            mpv.ApplyArch(manufacturer);
-            mpv.Create();
+        //public static void Main(string[] args)
+        //{
+        //    CMAArchitecture manufacturer = new CMAArchitecture();
+        //    SUV suv = new SUV();
+        //    suv.ApplyArch(manufacturer);
+        //    suv.Create();
+        //    Console.WriteLine("----------------------------------------------------------");
+        //    MPV mpv = new MPV();
+        //    mpv.ApplyArch(manufacturer);
+        //    mpv.Create();
 
-            Console.ReadKey();
-        }
+        //    Console.ReadKey();
+        //}
     }
 }
