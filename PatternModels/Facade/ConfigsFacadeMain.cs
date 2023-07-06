@@ -14,13 +14,13 @@ namespace DesignPattern.PatternModels.Facade
     /// </summary>
     public class ConfigsFacadeMain
     {
-        private static void Main(string[] args)
-        {
-            ConfigManager configManager = new ConfigManager();
-            configManager.Load();
-            configManager.Save();
-            Console.WriteLine("---------------------------------------------------------");
-            Console.ReadLine();
-        }
+        //private static void Main(string[] args)
+        //{
+        //    ConfigManager configManager = new ConfigManager();
+        //    configManager.Load();
+        //    configManager.Save();
+        //    Console.WriteLine("---------------------------------------------------------");
+        //    Console.ReadLine();
+        //}
     }
 }
