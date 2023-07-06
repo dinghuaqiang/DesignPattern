@@ -24,17 +24,17 @@ namespace DesignPattern.PatternModels.TemplateMethod
     /// </summary>
     internal class TemplateMethodMain
     {
-        private static void Main(string[] args) 
-        {
-            AndroidUpdate androidUpdate = new AndroidUpdate();
-            androidUpdate.Update();
+        //private static void Main(string[] args) 
+        //{
+        //    AndroidUpdate androidUpdate = new AndroidUpdate();
+        //    androidUpdate.Update();
 
-            Console.WriteLine("---------------------------------------------------------");
+        //    Console.WriteLine("---------------------------------------------------------");
 
-            IOSUpdate iosUpdate = new IOSUpdate();
-            iosUpdate.Update();
+        //    IOSUpdate iosUpdate = new IOSUpdate();
+        //    iosUpdate.Update();
 
-            Console.ReadLine();
-        }
+        //    Console.ReadLine();
+        //}
     }
 }
