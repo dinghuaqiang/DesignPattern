@@ -15,12 +15,12 @@ namespace DesignPattern.PatternModels.Build
     /// </summary>
     public class BuildMain
     {
-        private static void Main(string[] args)
-        {
-            ItemDirector director = new ItemDirector(new EquipItem(1, "头盔"));
-            director.BuildItem();
-            Console.WriteLine("---------------------------------------------------------");
-            Console.ReadLine();
-        }
+        //private static void Main(string[] args)
+        //{
+        //    ItemDirector director = new ItemDirector(new EquipItem(1, "头盔"));
+        //    director.BuildItem();
+        //    Console.WriteLine("---------------------------------------------------------");
+        //    Console.ReadLine();
+        //}
     }
 }
