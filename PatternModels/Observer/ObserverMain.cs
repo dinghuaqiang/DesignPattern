@@ -12,19 +12,19 @@ namespace DesignPattern.PatternModels.Observer
     {
         private string name;
         private string pwd;
-        private static void Main(string[] args)
-        {
-            NeedNoftiyObserver observerWaitter = new NeedNoftiyObserver("Waitter");
-            NeedNoftiyObserver observerChef = new NeedNoftiyObserver("Chef");
+        //private static void Main(string[] args)
+        //{
+        //    NeedNoftiyObserver observerWaitter = new NeedNoftiyObserver("Waitter");
+        //    NeedNoftiyObserver observerChef = new NeedNoftiyObserver("Chef");
 
-            Subscribes subs = new Subscribes();
-            subs.Subscribe(observerWaitter);
-            subs.Subscribe(observerChef);
+        //    Subscribes subs = new Subscribes();
+        //    subs.Subscribe(observerWaitter);
+        //    subs.Subscribe(observerChef);
 
-            subs.Notify("青椒肉丝");
-            subs.Notify("水煮肉片");
-            Console.WriteLine("---------------------------------------------------------");
-            Console.ReadLine();
-        }
+        //    subs.Notify("青椒肉丝");
+        //    subs.Notify("水煮肉片");
+        //    Console.WriteLine("---------------------------------------------------------");
+        //    Console.ReadLine();
+        //}
     }
 }

@@ -26,6 +26,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DelegateEvent\" />
+    <Folder Include="PatternModels\AbstractFactory\" />
     <Folder Include="PatternModels\SimpleFactory\" />
     <Folder Include="PatternModels\Strategy\" />
     <Folder Include="PatternModels\OpenClosePrinciple\" />
